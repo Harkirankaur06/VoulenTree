@@ -1,4 +1,4 @@
-    
+
 *{
     margin:0%;
     padding:0%;
@@ -363,6 +363,308 @@ button{
 #page3{
     height: 90%;
     width: 100%;
+    background: wheat;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+
+ .blog{
+    height: 300px;
+    width: 500px;
+    border: 10px thick solid violet;
+    border-style: dashed;
+    margin-bottom: 50px;
+    margin-right:50px;
+    
+    position:relative   ; 
+    float: left;
+    border-radius: 10px;
+    
+    padding: 30px;
+}
+
+.blog:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: 20%;
+    left: 20%;
+    transition-delay: 0.2s;
+}
+
+.Iconblog{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.img1{
+    border: dashed black 2px;
+    display: inline-block;
+    margin-right: 0px;
+    height: 100px;
+    width: 100px;
+}
+.name1{
+    border: dashed black 2px;
+    width: 300px;
+    height: 100px;
+    float: right;
+    justify-content: center;
+    text-align: center;
+    padding: 39px;
+}
+.para{
+    border: dashed black 2px;
+    height: 150px;
+    width: 435px;
+    padding: 10px;
+
+
+}
+
+/* #page3{
+    height: 90%;
+    width: 100%;
+    background: rgb(219, 218, 217);
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+#fifthh{
+    margin-top: -100px;
+    margin-left: 30px;
+}
+ .blog{
+    height: 300px;
+    width: 500px;
+    border: 10px thick solid violet;
+    border-style: dashed;
+    margin-bottom: 10px;
+    margin-right:10px;
+    
+    position:relative ; 
+    float: left;
+    border-radius: 10px;
+    
+    padding: 30px;
+}
+
+#firsth:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: 200px;
+    left: 700px;
+    
+}
+
+#secondh:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: 200px;
+    left: 200px;
+    
+}
+#thirdh:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: 200px;
+    left: -280px;
+    
+}
+#fourthh:hover{
+    scale: 1.3;
+    justify-content: center;
+    z-index: 2;
+    top: 150px;
+    left: -600px;
+    
+}
+#fifthh:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: -100px;
+    left: 650px;
+    
+}
+#sixthh:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: 00px;
+    left: 150px;
+    
+}
+#seventhh:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: -250px;
+    left: -280px;
+    
+} */
+
+#page3heading{
+    margin-top: -40px;
+    font-size:70px;
+    color: rgb(0, 0, 134);
+}
+#page3{
+    height: 90%;
+    width: 100%;
+    background: wheat;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+
+
+ .blog{
+    height: 300px;
+    width: 500px;
+    border: 10px thick solid violet;
+    border-style: dashed;
+    margin-bottom: 50px;
+    margin-right:50px;
+    
+    position:relative   ; 
+    float: left;
+    border-radius: 10px;
+    
+    padding: 30px;
+}
+
+.blog:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: 20%;
+    left: 20%;
+    transition-delay: 0.2s;
+}
+
+.Iconblog{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.img1{
+    border: dashed black 2px;
+    display: inline-block;
+    margin-right: 0px;
+    height: 100px;
+    width: 100px;
+}
+.name1{
+    border: dashed black 2px;
+    width: 300px;
+    height: 100px;
+    float: right;
+    justify-content: center;
+    text-align: center;
+    padding: 39px;
+}
+.para{
+    border: dashed black 2px;
+    height: 150px;
+    width: 435px;
+    padding: 10px;
+
+
+}
+
+#page3{
+    width: 100%;
+    background: rgb(219, 218, 217);
+    justify-content: center;
+}
+
+
+#fifthh{
+    margin-top: -100px;
+    margin-left: 30px;
+}
+.blog{
+    height: 300px;
+    width: 500px;
+    border: 10px thick solid violet;
+    border-style: solid;
+    margin-bottom: 10px;
+    margin-right:10px;
+    position:relative ; 
+    float: left;
+    border-radius: 10px;
+    
+    padding: 30px;
+}
+
+#firsth:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: 200px;
+    left: 700px;
+    
+}
+
+#secondh:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: 200px;
+    left: 200px;
+    
+}
+#thirdh:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: 200px;
+    left: -280px;
+    
+}
+#fourthh:hover{
+    scale: 1.3;
+    justify-content: center;
+    z-index: 2;
+    top: 150px;
+    left: -600px;
+    
+}
+#fifthh:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: -100px;
+    left: 650px;
+    
+}
+#sixthh:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: 00px;
+    left: 150px;
+    
+}
+#seventhh:hover{
+    scale: 1.5;
+    justify-content: center;
+    z-index: 2;
+    top: -250px;
+    left: -280px;
+    
+}
+/* Blogs Section */
+#page3{
+    height: 90%;
+    width: 100%;
     background: rgb(240, 238, 234);
     justify-content: center;
     padding-top: 100px;
@@ -427,7 +729,7 @@ button{
 }
 
 /* Buttons inside the container */
-.prev, .next {
+/* .prev, .next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -442,4 +744,4 @@ button{
 }
 
 .prev { left: 5%; }
-.next { right: 5%; }
+.next { right: 5%; } */

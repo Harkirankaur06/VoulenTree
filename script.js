@@ -44,3 +44,33 @@ setInterval(() => {
     moveSlide1(1);
 }, 5000);
 
+
+
+function moveSlide2(step) {
+    const carousel = document.querySelector('.carousel1');
+    const images = document.querySelectorAll('.carousel img');
+    const visibleWidth = document.querySelector('.carousel-container1').clientWidth;
+    const imageWidth = visibleWidth * 0.6 + 20; // 60% width + margin
+
+    if (images.length === 0) return; // Prevent errors if no images exist
+
+    index += step;
+
+    // Ensure looping effect
+    if (index >= images.length) {
+        index = 0; // Reset to the first image when at the end
+    }
+
+    carousel.style.transition = "transform 29s ease"; // Smooth slide transition
+    carousel.style.transform = `translateX(${-index * imageWidth}px)`;
+
+    // Update active class for scaling effect
+    images.forEach(img => img.classList.remove("active"));
+    images[index].classList.add("active");
+}
+
+// Auto-slide every 5 seconds to the next image
+setInterval(() => {
+    moveSlide2(1);
+}, 5000);
+

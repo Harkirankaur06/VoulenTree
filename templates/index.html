@@ -14,7 +14,7 @@
     <section id="homepage">
         <nav class="navbar section-p">
             <div class="logo">
-                <img src="/iconsss/tree-solid.svg" alt="logo image" class="icon">
+                <img src="{{ url_for('static', filename='images/tree-solid.svg') }}" alt="Example Image">
                 <h1>VolunTree</h1>
             </div>
             <div class="texts">
@@ -50,16 +50,16 @@
                     <div class="carousel-wrapper1">
                         <!-- <button class="prev2" onclick="moveSlide2(-1)">&#10094;</button> -->
                         <div class="carousel1">
-                            <img src="iconsss/ngologo1.png" alt="Image 1" class="imgslider1">
-                            <img src="iconsss/ngologo2 (1).png" alt="Image 2" class="imgslider1">
-                            <img src="iconsss/ngologo3 (3).png" alt="Image 3" class="imgslider1">
-                            <img src="iconsss/ngologo4 (4).png" alt="Image 4"class="imgslider1">
-                            <img src="iconsss/ngologo5.png" alt="Image 5"class="imgslider1">
-                            <img src="iconsss/ngologo1.png" alt="Image 1" class="imgslider1">
-                            <img src="iconsss/ngologo2 (1).png" alt="Image 2" class="imgslider1">
-                            <img src="iconsss/ngologo3 (3).png" alt="Image 3" class="imgslider1">
-                            <img src="iconsss/ngologo4 (4).png" alt="Image 4"class="imgslider1">
-                            <img src="iconsss/ngologo5.png" alt="Image 5"class="imgslider1">
+                            <img src="{{ url_for('static', filename='images/ngologo1.png') }}" alt="Image 1" class="imgslider1">
+                            <img src="{{ url_for('static', filename='images/ngologo2 (1).png') }}" alt="Image 2" class="imgslider1">
+                            <img src="{{ url_for('static', filename='images/ngologo3 (3).png') }}" alt="Image 3" class="imgslider1">
+                            <img src="{{ url_for('static', filename='images/ngologo4 (4).png') }}" alt="Image 4"class="imgslider1">
+                            <img src="{{ url_for('static', filename='images/ngologo5.png') }}" alt="Image 5"class="imgslider1">
+                            <img src="{{ url_for('static', filename='images/ngologo1.png') }}" alt="Image 1" class="imgslider1">
+                            <img src="{{ url_for('static', filename='images/ngologo2 (1).png') }}" alt="Image 2" class="imgslider1">
+                            <img src="{{ url_for('static', filename='images/ngologo3 (3).png') }}" alt="Image 3" class="imgslider1">
+                            <img src="{{ url_for('static', filename='images/ngologo4 (4).png') }}" alt="Image 4"class="imgslider1">
+                            <img src="{{ url_for('static', filename='images/ngologo5.png') }}" alt="Image 5"class="imgslider1">
                         </div>
                         <!-- <button class="next2" onclick="moveSlide2(1)">&#10095;</button> -->
                     </div>
@@ -73,7 +73,7 @@
         <main class="opportunities section-p" id="opportunities-main">
             <main class="oppo-container">
                 <div class="oppo-img">
-                    <img src="https://t3.ftcdn.net/jpg/02/85/51/44/360_F_285514482_EdWlMKZzjVV6YH2pIXUmAbjvaMv5kRep.jpg"
+                    <img src="{{ url_for('static', filename='https://t3.ftcdn.net/jpg/02/85/51/44/360_F_285514482_EdWlMKZzjVV6YH2pIXUmAbjvaMv5kRep.jpg') }}"
                         alt="opportunities-img" class="oppo-cover" />
                 </div>
                 <h4 class="oppo-title">Environment</h4>
@@ -82,13 +82,13 @@
 
                 <div class="oppo-read-more">
                     <a href="/">Get Details</a>
-                    <img src="/iconsss/arrow-right-solid.svg" alt="read more link" />
+                    <img src="{{ url_for('static', filename='images/arrow-right-solid.svg') }}" alt="read more link" />
                 </div>
             </main>
 
             <main class="oppo-container">
                 <div class="oppo-img">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKudmsk0xtbssdUOF1aHTXplQ-eGX1r6UpQw&s"
+                    <img src="{{ url_for('static', filename='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKudmsk0xtbssdUOF1aHTXplQ-eGX1r6UpQw&s') }}"
                         alt="opportunities-img" class="oppo-cover" />
                 </div>
                 <h4 class="oppo-title">Animal Welfare</h4>
@@ -97,13 +97,13 @@
 
                 <div class="oppo-read-more">
                     <a href="/loginyt">Get Details</a>
-                    <img src="/iconsss/arrow-right-solid.svg" alt="read more link" />
+                    <img src="{{ url_for('static', filename='images/arrow-right-solid.svg') }}" alt="read more link" />
                 </div>
             </main>
 
             <main class="oppo-container">
                 <div class="oppo-img">
-                    <img src="https://icsblog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2022/08/23154404/Untitled-design-2022-08-23T151205.587-1024x676.png"
+                    <img src="{{ url_for('static', filename='https://icsblog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2022/08/23154404/Untitled-design-2022-08-23T151205.587-1024x676.png') }}"
                         alt="opportunities-img" class="oppo-cover" />
                 </div>
                 <h4 class="oppo-title">Social Service</h4>
@@ -112,7 +112,7 @@
 
                 <div class="oppo-read-more">
                     <a href="/loginyt">Get Details</a>
-                    <img src="/iconsss/arrow-right-solid.svg" alt="read more link" />
+                    <img src="{{ url_for('static', filename='images/arrow-right-solid.svg') }}" alt="read more link" />
                 </div>
             </main>
         </main>
@@ -120,50 +120,50 @@
         <!-- Slider -->
         <main class="slider section-p">
             <button class="slider-btn prev" onclick="moveSlide(-1)">
-                <img src="/iconsss/less-than-solid.svg" alt="slider-btn-img" class="icon" />
+                <img src="{{ url_for('static', filename='images/less-than-solid.svg') }}" alt="slider-btn-img" class="icon" />
             </button>
             <div class="slider-container">
                 <div class="slider-wrapper">
                     <div class="slider-content">
                         <h4>Health Care</h4>
-                        <img src="/iconsss/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-img" class="icon" />
                     </div>
                     <div class="slider-content">
                         <h4>Education</h4>
-                        <img src="/iconsss/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-img" class="icon" />
                     </div>
                     <div class="slider-content">
                         <h4>Community</h4>
-                        <img src="/iconsss/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-img" class="icon" />
                     </div>
                     <div class="slider-content">
                         <h4>Sports</h4>
-                        <img src="/iconsss/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-img" class="icon" />
                     </div>
                     <div class="slider-content">
                         <h4>Arts & Culture</h4>
-                        <img src="/iconsss/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-img" class="icon" />
                     </div>
                     <div class="slider-content">
                         <h4>Farming & Agriculture</h4>
-                        <img src="/iconsss/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-img" class="icon" />
                     </div>
                     <div class="slider-content">
                         <h4>Charity</h4>
-                        <img src="/iconsss/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-img" class="icon" />
                     </div>
                     <div class="slider-content">
                         <h4>Youth Work</h4>
-                        <img src="/iconsss/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-img" class="icon" />
                     </div>
                     <div class="slider-content">
                         <h4>Adult Companionships</h4>
-                        <img src="/iconsss/hospital-user-solid.svg" alt="slider-img" class="icon" />
+                        <img src="{{ url_for('static', filename='images/hospital-user-solid.svg') }}" alt="slider-img" class="icon" />
                     </div>
                 </div>
             </div>
             <button class="slider-btn next" onclick="moveSlide(1)">
-                <img src="/iconsss/greater-than-solid.svg" alt="slider-btn-img" class="icon" />
+                <img src="{{ url_for('static', filename='images/greater-than-solid.svg') }}" alt="slider-btn-img" class="icon" />
             </button>
         </main>
 
@@ -176,11 +176,11 @@
                 <div class="carousel-wrapper">
                     <button class="prev1" onclick="moveSlide1(-1)">&#10094;</button>
                     <div class="carousel">
-                        <img src="imagesvs/background 2nd.avif" alt="Image 1" class="imgslider">
-                        <img src="imagesvs/green backround.jpg" alt="Image 2" class="imgslider">
-                        <img src="imagesvs/OIP (1).jpg" alt="Image 3" class="imgslider">
-                        <img src="imagesvs/th.jpg" alt="Image 4"class="imgslider">
-                        <img src="imagesvs/blue-wallpaper-16.jpg" alt="Image 5"class="imgslider">
+                        <img src="{{ url_for('static', filename='images/review1.jpg') }}" alt="Image 1" class="imgslider">
+                        <img src="{{ url_for('static', filename='images/review2.jpg') }}" alt="Image 2" class="imgslider">
+                        <img src="{{ url_for('static', filename='images/review3.jpg') }}" alt="Image 3" class="imgslider">
+                        <img src="{{ url_for('static', filename='images/review4.jpg') }}" alt="Image 4"class="imgslider">
+                        <img src="{{ url_for('static', filename='images/review5.jpg') }}" alt="Image 5"class="imgslider">
                     </div>
                     <button class="next1" onclick="moveSlide1(1)">&#10095;</button>
                 </div>

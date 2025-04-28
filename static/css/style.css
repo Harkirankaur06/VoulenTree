@@ -101,13 +101,14 @@ button{
 }
 .btn1{
     padding: 10px 20px;
-    width: 20%;
+    width: 150px;
     background-color: rgb(41, 41, 169);
     color: white;
     border-radius: 50px;
 }
 .btn1:hover{
     background-color: blue;
+
 }
 .btn2{
     padding: 10px 20px;
@@ -719,4 +720,3 @@ button{
 }
 .prev2 { left: 2%; }
 .next2 { right: 2%; }
-
